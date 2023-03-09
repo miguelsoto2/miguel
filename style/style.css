@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: url('../images/55591445339580422_1616632716.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: rgb(252, 250, 249);
+    font-family: helvetica;
+}
+
+nav{
+    background-color: rgb(69, 21, 100);
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.lista a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+ display: inline-block;
+}
+.lista-r{
+    float:right;
+}
+.lista a:hover{
+    background-color: rgb(100, 68, 160);
+}
+
+main{
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 10px solid white;
+}
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border:0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(82, 87, 97);
+}
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(238, 238, 237);
+    color: rgb(255, 255, 255);
+}
+button[type="submit"]{
+    background: red;
+    color: white;
+    padding: 18px;
+    font-family: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(32, 185, 185);
+}
